@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="happie-plugin-cordova-swiftBridge"
+        version="1.0.0">
+    <name>General Swift Briding Header</name>
+    <description>global bridging header for multiple swift plugins</description>
+    <license>MIT</license>
+    <keywords>cordova,raygun,ios,android,ecosystem:cordova</keywords>
+    <platform name="ios">
+        <header-file src="src/ios/Swift-Bridging-Header.h"/>
+    </platform>
+</plugin>

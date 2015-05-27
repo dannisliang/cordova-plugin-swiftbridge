@@ -4,3 +4,4 @@
 
 #import <Cordova/CDV.h>
 #import "MainViewController.h"
+#import <Raygun4iOS/Raygun.h>
